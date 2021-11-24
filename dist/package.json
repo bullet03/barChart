@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0",
+    "author": {"name":"Natalya","email":"v-nsmirnova@microsoft.com"},
+    "resources": [
+        {
+            "resourceId": "rId0",
+            "sourceType": 5,
+            "file": "resources/barChart4BD1459AB66343C18D27AB1D0D4317DF.pbiviz.json"
+        }
+    ],
+    "visual": {"name":"barChart","displayName":"BarChart","guid":"barChart4BD1459AB66343C18D27AB1D0D4317DF","visualClassName":"BarChart","version":"1.0.0","description":"my bar chart","supportUrl":"https://community.powerbi.com","gitHubUrl":"https://github.com/microsoft/PowerBI-visuals-circlecard"},
+    "metadata": {
+        "pbivizjson": {
+            "resourceId": "rId0"
+        }
+    }  
+}

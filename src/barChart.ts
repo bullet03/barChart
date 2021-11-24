@@ -1,4 +1,4 @@
-import "./../style/visual.less";
+// import "./../style/visual.less";
 import {
     select as d3Select
 } from "d3-selection";
@@ -14,8 +14,6 @@ import "regenerator-runtime/runtime";
 import powerbi = powerbiVisualsApi;
 
 type Selection<T1, T2 = T1> = d3.Selection<any, T1, any, T2>;
-import ScaleLinear = d3.ScaleLinear;
-const getEvent = () => require("d3-selection").event;
 
 // powerbi.visuals
 import DataViewCategoryColumn = powerbi.DataViewCategoryColumn;
@@ -411,5 +409,4 @@ export class BarChart implements IVisual {
 
         return objectEnumeration;
     }
-
 }

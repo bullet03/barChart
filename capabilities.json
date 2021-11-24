@@ -11,29 +11,6 @@
             "kind": "Measure"
         }
     ],
-    "objects": {
-        "enableAxis": {
-            "displayName": "Enable Axis",
-            "properties": {
-                "show": {
-                    "displayName": "Enable Axis",
-                    "type": {
-                        "bool": true
-                    }
-                },
-                "fill": {
-                    "displayName": "Color",
-                    "type": {
-                        "fill": {
-                            "solid": {
-                                "color": true
-                            }
-                        }
-                    }
-                }
-            }
-        }
-     },
     "dataViewMappings": [
         {
             "conditions": [
@@ -63,5 +40,58 @@
                 }
             }
         }
-    ]
+    ],
+    "objects": {
+        "enableAxis": {
+            "displayName": "Enable Axis",
+            "properties": {
+                "show": {
+                    "displayName": "Enable Axis",
+                    "type": {
+                        "bool": true
+                    }
+                },
+                "fill": {
+                    "displayName": "Color",
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "colorSelector": {
+            "displayName": "Data Colors",
+            "properties": {
+                "fill": {
+                    "displayName": "Color",
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "tooltips": {
+        "supportedTypes": {
+            "default": true,
+            "canvas": true
+        },
+        "roles": [
+            "Tooltips"
+        ]
+    },
+    "supportsLandingPage": false,
+    "drilldown": {
+        "roles": [
+            "category"
+        ]
+    }
 }

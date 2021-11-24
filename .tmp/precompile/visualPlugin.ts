@@ -5,8 +5,8 @@ import VisualConstructorOptions = powerbiVisualsApi.extensibility.visual.VisualC
 import DialogConstructorOptions = powerbiVisualsApi.extensibility.visual.DialogConstructorOptions;
 var powerbiKey: any = "powerbi";
 var powerbi: any = window[powerbiKey];
-var barChart22714BE94EB04D27972B0D83F6CB6FC7_DEBUG: IVisualPlugin = {
-    name: 'barChart22714BE94EB04D27972B0D83F6CB6FC7_DEBUG',
+var barChart4BD1459AB66343C18D27AB1D0D4317DF: IVisualPlugin = {
+    name: 'barChart4BD1459AB66343C18D27AB1D0D4317DF',
     displayName: 'BarChart',
     class: 'BarChart',
     apiVersion: '3.8.0',
@@ -27,6 +27,6 @@ var barChart22714BE94EB04D27972B0D83F6CB6FC7_DEBUG: IVisualPlugin = {
 if (typeof powerbi !== "undefined") {
     powerbi.visuals = powerbi.visuals || {};
     powerbi.visuals.plugins = powerbi.visuals.plugins || {};
-    powerbi.visuals.plugins["barChart22714BE94EB04D27972B0D83F6CB6FC7_DEBUG"] = barChart22714BE94EB04D27972B0D83F6CB6FC7_DEBUG;
+    powerbi.visuals.plugins["barChart4BD1459AB66343C18D27AB1D0D4317DF"] = barChart4BD1459AB66343C18D27AB1D0D4317DF;
 }
-export default barChart22714BE94EB04D27972B0D83F6CB6FC7_DEBUG;
+export default barChart4BD1459AB66343C18D27AB1D0D4317DF;
